@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- stylesheet -->
+    <link rel="stylesheet" href="css/styles.css">
+    <!-- vue cdn -->
+    <script src="https://unpkg.com/vue@3.0.11/dist/vue.global.js"></script>
+    <title>Document</title>
+</head>
+<body id="app">
+    <div class="hero">
+        <nav-bar></nav-bar>
+        <hero></hero>
+        <div class="text-port">
+            <h1>I'm Swaz</h1>
+        </div>
+    </div>
+
+    <!-- Import app -->
+    <script src="main.js"></script>
+
+    <!-- components -->
+    <script src="components/nav.js"></script>
+    <script src="components/hero.js"></script>
+
+    <!-- mount App -->
+    <script>
+        const mountedApp = app.mount("#app")
+    </script>
+
+</body>
+</html>
